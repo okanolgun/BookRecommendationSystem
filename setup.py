@@ -11,6 +11,7 @@ LIST_OF_REQUIREMENTS = ['streamlit', 'numpy']
 
 
 setup(
+    
     name=SRC_REPO,
     version="0.0.1",
     author=AUTHOR_USER_NAME,
@@ -22,4 +23,5 @@ setup(
     packages=[SRC_REPO],
     python_requires=">=3.7",
     install_requires=LIST_OF_REQUIREMENTS
+    
 )
