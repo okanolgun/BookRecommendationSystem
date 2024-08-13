@@ -2,6 +2,7 @@
 import pickle
 import streamlit as st
 import numpy as np
+import scikit-learn
 
 
 st.header('Book Recommender System Using Machine Learning')
